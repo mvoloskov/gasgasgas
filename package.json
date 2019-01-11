@@ -1,0 +1,25 @@
+{
+  "name": "gasgasgas",
+  "version": "1.0.0",
+  "description": "Keeps your dependencies updated and gives it a bleeding-edge touch.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uyouthe/gasgasgas.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "dependencies",
+    "yarn",
+    "bower",
+    "js",
+    "modules"
+  ],
+  "author": "Miloslav Voloskov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uyouthe/gasgasgas/issues"
+  },
+  "homepage": "https://github.com/uyouthe/gasgasgas#readme"
+}
