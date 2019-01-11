@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const ncu = require('npm-check-updates')
 const { exec } = require('child_process')
 

@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Keeps your dependencies updated and gives it a bleeding-edge touch.",
   "main": "index.js",
+  "bin": {
+    "gasgasgas": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uyouthe/gasgasgas.git"
   },
+  "preferGlobal": true,
   "keywords": [
     "npm",
     "node",
