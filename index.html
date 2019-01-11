@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<!-- Page Title -->
+	<title>Gasgasgas – ⚡Keeps your dependencies updated and gives it a bleeding-edge touch.</title>
+
+
+</head>
+<body class="slides scroll simplifiedMobile animateOnEvent">
+
+<!-- SVG Library -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
+
+  <symbol id="close-small" viewBox="0 0 11 11"><path d="M6.914 5.5l3.793-3.793c.391-.391.391-1.023 0-1.414s-1.023-.391-1.414 0l-3.793 3.793-3.793-3.793c-.391-.391-1.023-.391-1.414 0s-.391 1.023 0 1.414l3.793 3.793-3.793 3.793c-.391.391-.391 1.023 0 1.414.195.195.451.293.707.293s.512-.098.707-.293l3.793-3.793 3.793 3.793c.195.195.451.293.707.293s.512-.098.707-.293c.391-.391.391-1.023 0-1.414l-3.793-3.793z"/></symbol>
+
+  <symbol id="arrow-left" viewBox="0 0 29 56"><path d="M28.7.3c.4.4.4 1 0 1.4l-26.3 26.3 26.3 26.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-27-27c-.4-.4-.4-1 0-1.4l27-27c.3-.3 1-.4 1.4 0z"/></symbol>
+
+  <symbol id="arrow-right" viewBox="0 0 29 56"><path d="M.3 55.7c-.4-.4-.4-1 0-1.4l26.3-26.3-26.3-26.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l27 27c.4.4.4 1 0 1.4l-27 27c-.3.3-1 .4-1.4 0z"/></symbol>
+
+  <symbol id="back" viewBox="0 0 20 20"><path d="M2.3 10.7l5 5c.4.4 1 .4 1.4 0s.4-1 0-1.4l-3.3-3.3h11.6c.6 0 1-.4 1-1s-.4-1-1-1h-11.6l3.3-3.3c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-5 5c-.2.2-.3.5-.3.7 0 .2.1.5.3.7z"/></symbol>
+
+  <symbol id="menu" viewBox="0 0 18 18"><path d="M16 5h-14c-.6 0-1-.4-1-1 0-.5.4-1 1-1h14c.5 0 1 .4 1 1s-.4 1-1 1zm-14 5h14c.5 0 1-.4 1-1 0-.5-.4-1-1-1h-14c-.6 0-1 .4-1 1s.4 1 1 1zm14 3h-14c-.5 0-1 .4-1 1 0 .5.4 1 1 1h14c.5 0 1-.4 1-1s-.4-1-1-1z"/></symbol>
+
+  <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 18c-.2 0-.5-.1-.7-.3l-11-10c-.4-.4-.4-1-.1-1.4.4-.4 1-.4 1.4-.1l10.4 9.4 10.3-9.4c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-11 10c-.1.2-.4.3-.6.3z"/></symbol>
+
+  <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M11.9 5.9c.2 0 .5.1.7.3l11 10c.4.4.4 1 .1 1.4-.4.4-1 .4-1.4.1l-10.4-9.4-10.3 9.4c-.4.4-1 .3-1.4-.1-.4-.4-.3-1 .1-1.4l11-10c.1-.2.4-.3.6-.3z"/></symbol>
+
+  <symbol id="arrow-top" viewBox="0 0 18 18"><path d="M15.7 7.3l-6-6c-.4-.4-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l4.3-4.3v11.6c0 .6.4 1 1 1s1-.4 1-1v-11.6l4.3 4.3c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4z"/></symbol>
+
+  <symbol id="play" viewBox="0 0 30 30"><path d="M7 30v-30l22 15z"/></symbol>
+
+</svg>
+
+<!-- Panel Top #01 -->
+<nav class="panel top">
+  <div class="sections desktop">
+    <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="right">
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a class="button blue gradient" href="https://github.com/uyouthe/gasgasgas">Get gasgasgas</a>
+    </div>
+  </div>
+  <div class="sections compact hidden">
+    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+  </div>
+</nav>
+
+<!-- Sidebar -->
+<nav class="sidebar" data-sidebar-id="1">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <ul class="mainMenu margin-top-3">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#install">Install</a></li>
+			<li><a href="#about">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Slide 1 (#72) -->
+<section data-name="slide-1" class="slide fade-6 kenBurns" id="home">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-12-12 left">
+          <div class="fix-12-12 toLeft">
+            <div class="ae-5 fromRight"><p class="opacity-6 margin-bottom-1">Pure inspiration</p></div>
+            <h1 class="huge ae-1 margin-bottom-3">
+							Gasgasgas keeps your dependencies updated and gives it a bleeding-edge touch.
+						</h1>
+            <a href="https://github.com/uyouthe/gasgasgas" class="button blue gradient ae-2 crop">⚡ Get gasgasgas</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+	<div class="background youtube" style="background-image:url(https://img.youtube.com/vi/3io3-R-Vc1E/maxresdefault.jpg);" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=3io3-R-Vc1E', containment:'self', startAt: 10, stopAt: 100, showControls:false, autoPlay:true, loop:true, mute:true, opacity:1, quality:'highres', stopMovieOnBlur:false, remember_last_time: true}"></div>
+</section>
+
+<!-- Slide 2 (#62) -->
+<section data-name="slide-2" class="slide fade-6 kenBurns" id="features">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-12-12">
+          <ul class="flex reverse noSpaces verticalCenter">
+            <li class="col-6-12 left">
+              <h1 class="ae-2">Magical balance</h1>
+              <p class="ae-3"><span class="opacity-8">Gasgasgas solves problems. It is the answer to question; you need to understand that first in order to answer the riddle.</span></p>
+              <ul class="flex grid-62 later">
+                <li class="col-6-12 ae-4">
+                  <i class="material-icons">offline_bolt</i>
+                  <h3>Always in time</h3>
+                  <p class="tiny opacity-6">Move fast and break things. Gasgasgas encourages you to learn really quick.</p>
+                </li>
+                <li class="col-6-12 ae-5">
+                  <i class="material-icons">code</i>
+                  <h3>Declarative</h3>
+                  <p class="tiny opacity-6">Really big codebase changes are one command away.</p>
+                </li>
+                <li class="col-6-12 ae-6">
+                  <i class="material-icons">done</i>
+                  <h3>Productivity in mind</h3>
+                  <p class="tiny opacity-6">You will be amazed by how productive you'll be after running just one command.</p>
+                </li>
+                <li class="col-6-12 ae-7">
+									<i class="material-icons">loyalty</i>
+                  <h3>Human-oriented</h3>
+                  <p class="tiny opacity-6">The definition of an expert is someone who knows what not to do.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="col-6-12 left ae-1 image-62">
+              <img class="macbook-62 margin-bottom-3" src="assets/img/macbook-62.png" data-action="zoom" width="1044" alt="Macbook Image"/>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-61.jpg)"></div>
+</section>
+
+<!-- Slide 3 (#45) -->
+<section data-name="slide-3" class="slide fade-6 kenBurns" id="install">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-11-12 toCenter">
+          <h1 class="ae-1">How to Install</h1>
+          <p class="ae-2"><span class="opacity-8">This one is really simple.</span></p>
+          <ul class="grid later">
+            <li class="col-4-12">
+
+							<i class="ae-3 fromCenter margin-bottom-3 margin-top-5 material-icons" style="font-size:128px">code</i>
+              <div class="fix-45 ae-4">
+                <p class="tiny center"><span class="opacity-6">Step 1.<br><code>npm i -g gasgasgas</code></span></p>
+              </div>
+            </li>
+            <li class="col-4-12">
+							<i class="ae-8 fromCenter margin-bottom-3 margin-top-5 material-icons" style="font-size:128px">watch_later</i>
+              <div class="fix-45 ae-7">
+                <p class="tiny center"><span class="opacity-6">Step 2.<br>Wait until it's finished</span></p>
+              </div>
+            </li>
+            <li class="col-4-12">
+							<i class="ae-10 fromCenter margin-bottom-3 margin-top-5 material-icons" style="font-size:128px">stars</i>
+              <div class="fix-45 ae-9">
+                <p class="tiny center"><span class="opacity-6">Step 3.<br>Fasten your seatbelt and prepare to be really productive tonight.</span></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-45.jpg)"></div>
+</section>
+
+<!-- Slide 4 (#78) -->
+<section data-name="slide-4" class="slide fade-6 kenBurns" id="about">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-9-12">
+          <div class="fix-3-12">
+            <svg height="77" class="wide ae-1 fromCenter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+          </div>
+          <div class="ae-2 margin-top-2">
+            <p class="hero"><span class="opacity-8">Perfection is achieved, not when there is nothing more to add, but when there is nothing left to update to your package.json.</span></p>
+          </div>
+          <a href="https://miloslav.website" class="button blue gradient ae-3">Say thanks</a>
+					<a href="https://github.com/uyouthe/gasgasgas" class="button white ae-4">GitHub</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/img-78.jpg)"></div>
+</section>
+
+<!-- Panel Bottom #15 -->
+<nav class="panel bottom lastSlideOnly">
+  <div class="sections">
+    <div class="center">
+			<img src="assets/svg/build.svg" alt="Build badge (failing)">
+		</div>
+  </div>
+</nav>
+
+<!-- Loading Progress Bar -->
+<div class="progress-bar blue"></div>
+
+
+	<!-- Compressed Styles -->
+	<link href="css/slides.min.css?41331" rel="stylesheet" type="text/css">
+
+	<!-- Custom Styles -->
+	<!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
+
+	<!-- jQuery 3.3.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Compressed Scripts -->
+	<script src="js/slides.min.js?41331" type="text/javascript"></script>
+
+	<script src="https://cdn.rawgit.com/pupunzi/jquery.mb.YTPlayer/9afc0466/dist/jquery.mb.YTPlayer.min.js"></script>
+	<script>
+	  $(function(){
+	    if (!window.isMobile) {
+	      $(".background.youtube").mb_YTPlayer();
+	    }
+	  });
+	</script>
+
+	<!-- Custom Scripts -->
+	<!-- <script src="js/custom.js" type="text/javascript"></script> -->
+
+	<!-- Fonts and Material Icons -->
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto Mono:100,300,400,500,600,800|Roboto Mono:300|Roboto Mono:600|Material+Icons"/>
+	<style type="text/css">
+		.slides,
+		.slides p {
+			font-family: 'Roboto Mono', sans-serif;
+			font-weight: 400;
+		}
+		.slides h1,
+		.slides h2,
+		.slides h3,
+		.slides h4,
+		.slides h5,
+		.slides h6 {
+			font-family: 'Roboto Mono', sans-serif;
+			font-weight: 300;
+		}
+		.slides .button,
+		.slides .slides-form {
+			font-family: 'Roboto Mono', sans-serif;
+			font-weight: 600;
+		}
+	</style>
+
+</body>
+</html>
