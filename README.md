@@ -2,6 +2,9 @@
 
 Keeps your dependencies updated and gives it a bleeding-edge touch. 
 
+Gasgasgas updates all of your dependencies to their latest versions.  
+
+
 ## Why?
 
 Have you ever experience being stuck to outdated versions of your dependencies?  
