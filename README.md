@@ -1,8 +1,14 @@
 # ⚡ gasgasgas
 
-Keeps your dependencies updated and gives it a bleeding-edge touch. 
+![](https://miloslav.website/gasgasgas/gas.gif)
 
-Gasgasgas updates all of your dependencies to their latest versions.  
+Keep your dependencies updated and give them a bleeding-edge touch. 
+
+Gasgasgas updates all of your dependencies to their latest versions, so you gonna be _really_ productive tonight or maybe even for the whole next week if you don't wanna loose your job.
+
+After giving a [talk about productivity](https://github.com/uyouthe/how-to-learn) I've been really wondering if we could just `import productivity`. The opinions are that we have a thick layer between what computer can do and what mood do you have. It _was_ true until gasgasgas came out, designed especially for piercing that border.  
+
+Your insane productivity is just `npm i -g gasgasgas` away. 
 
 
 ## Why?
