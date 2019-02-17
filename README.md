@@ -1,4 +1,4 @@
-# ⚡ gasgasgas
+# ⚡ gasgasgas [![Become a patron](https://miloslav.website/patreon.svg)](https://www.patreon.com/uyouthe)
 
 ![](https://miloslav.website/gasgasgas/gas.gif)
 
