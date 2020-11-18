@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyouthe/gasgasgas.git"
+    "url": "git+https://github.com/mvoloskov/gasgasgas.git"
   },
   "preferGlobal": true,
   "keywords": [
@@ -21,11 +21,11 @@
     "modules"
   ],
   "author": "Miloslav Voloskov",
-  "license": "MIT",
+  "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/uyouthe/gasgasgas/issues"
+    "url": "https://github.com/mvoloskov/gasgasgas/issues"
   },
-  "homepage": "https://github.com/uyouthe/gasgasgas#readme",
+  "homepage": "https://github.com/mvoloskov/gasgasgas#readme",
   "dependencies": {
     "npm-check-updates": "^2.15.0"
   }
